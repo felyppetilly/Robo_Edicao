@@ -1,0 +1,2 @@
+./preparacao_ambiente.mp4;./vinheta.mp4;final-aula1.mp4
+./Aula_02_Git_Github.mp4;./vinheta.mp4;final-aula2.mp4
