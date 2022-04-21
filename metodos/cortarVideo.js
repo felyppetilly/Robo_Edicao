@@ -1,8 +1,25 @@
 const ffmpeg = require('fluent-ffmpeg');
-const fs = require('fs');
+const { readFile } = require('fs');
+const content = './metodos/cortes.txt';
+
 
 export default function cortarVideo() {
-    ffmpeg({ source: './arquivos/sem_edicao/Aula_02_Git_Github.mp4' })
-        .setDuration('5:00.00')
-        .save('Aula_02_Git_Github_Cortada.mp4')
+
+
+    readFile(content, 'utf-8', (err, data) => {
+        var linhas = data.split(/\r?\n/);
+        if (err) throw err;
+
+        linhas.forEach((linha) => {
+            var param = linha.split(';');
+
+            ffmpeg({ source: param[0] })
+            .setDuration(param[1])
+            .on('end', () => console.log('Corte Finalizado'))
+            .save(param[2])
+        })
+    })
+
+    
+  
 }

@@ -1,9 +1,9 @@
-import editarVideo from './metodos/editarVideo';
+import juntarVideo from './metodos/juntarVideo';
 import cortarVideo from './metodos/cortarVideo';
 
-
-cortarVideo();
-// editarVideo();
+//lerParametros();
+// cortarVideo();
+juntarVideo();
 
 
 
