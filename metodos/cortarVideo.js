@@ -1,25 +1,16 @@
 const ffmpeg = require('fluent-ffmpeg');
-const { readFile } = require('fs');
-const content = './arquivos/parametros/cortes.txt';
 
-
-export default function cortarVideo() {
-
-
-    readFile(content, 'utf-8', (err, data) => {
-        var linhas = data.split(/\r?\n/);
-        if (err) throw err;
-
-        linhas.forEach((linha) => {
-            var param = linha.split(';');
-
-            ffmpeg({ source: param[0] })
-            .setDuration(param[1])
-            .on('end', () => console.log('Corte Finalizado'))
-            .save(param[2])
+export default function cortarVideo(param){
+    return new Promise((resolve, reject ) => { 
+        ffmpeg({ source: param[0] })
+        .setStartTime(param[1])
+        .save('arquivos/editados/' + param[2])
+        .on('end', () => { 
+            console.log('Edição Finalizada as: ' + new Date())
+            return resolve()
         })
-    })
-
-    
-  
+        .on('err',(err)=>{
+            return reject(err)
+        })
+    })    
 }
