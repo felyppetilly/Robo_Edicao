@@ -1,6 +1,6 @@
 const ffmpeg = require('fluent-ffmpeg');
 const { readFile } = require('fs');
-const content = './metodos/cortes.txt';
+const content = './arquivos/parametros/cortes.txt';
 
 
 export default function cortarVideo() {

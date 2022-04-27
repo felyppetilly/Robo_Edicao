@@ -1,6 +1,6 @@
 import { readFile } from 'fs';
 const ffmpeg = require('fluent-ffmpeg');
-const content = './arquivos/sem_edicao/edicao.txt';
+const content = './arquivos/parametros/edicao.txt';
 
 export default function juntarVideo() {
 

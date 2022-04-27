@@ -1,5 +1,0 @@
-./arquivos/sem_edicao/Aula 11 - Bibliotecas de Frontend.mp4;12:37.00;vinheta.mp4
-
-
-
-ffmpeg -i Aula11.mp4 -ss 09:52 -t 10:03 -copyinkf vinheta.mp4
