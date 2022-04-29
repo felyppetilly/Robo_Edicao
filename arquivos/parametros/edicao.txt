@@ -1,1 +1,1 @@
-./arquivos/vinhetas/vinheta_Inicio.mp4;./arquivos/vinhetas/vinheta_exercicios.mp4;vinheta_exercicios.mp4
+./arquivos/vinhetas/vinheta_Inicio.mp4;./arquivos/vinhetas/vinheta_exercicios.mp4;arquivo_final.mp4
