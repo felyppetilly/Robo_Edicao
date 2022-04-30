@@ -1,3 +1,0 @@
-./arquivos/sem_edicao/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4;00:05.00;Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4
-./arquivos/sem_edicao/Algoritmo_JS - Aula 01 - PT02 - Sintaxe e Semantica.mp4;00:05.00;Algoritmo_JS - Aula 01 - PT02 - Sintaxe e Semantica.mp4
-./arquivos/sem_edicao/Algoritmo_JS - Aula 02 - Tipos de Dados - Variáveis vs Constantes.mp4;00:05.00;Algoritmo_JS - Aula 02 - Tipos de Dados - Variáveis vs Constantes.mp4
