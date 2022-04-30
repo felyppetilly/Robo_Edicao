@@ -1,43 +1,45 @@
 import fs from 'fs';
 import { exec } from 'child_process';
 
-export default async function mergeVideos(){
+export default async function mergeVideos() {
     let json = lerJSON();
-    console.log(json)
-    for(let j of json.merge){
+    for (let j of json.merge) {
         await criarArquivoParametro(j);
+        let nome_final_arquivo = j.nome_final_arquivo;
+        await editarVideo(nome_final_arquivo);
     }
-    editarVideo();
 }
 
-function lerJSON(){
+function lerJSON() {
     let json = fs.readFileSync('././arquivos/parametros/json.txt', 'utf-8');
     return JSON.parse(json);
 }
 
-function criarArquivoParametro(json){
-    console.log(json);
-    let path_video = json.path_video;
-    let path_vinheta = json.path_vinheta;
-    let nome_final_arquivo = json.nome_final_arquivo;
+function criarArquivoParametro(json) {
+        let path_video = json.path_video;
+        let path_vinheta = json.path_vinheta;
 
-    fs.writeFileSync('./arquivos/parametros/merge.txt', path_vinheta);
-    fs.appendFileSync('./arquivos/parametros/merge.txt', '\n' + path_video)
-    console.log("Arquivo criado")
+        fs.writeFileSync('./arquivos/parametros/merge.txt', path_vinheta);
+        fs.appendFileSync('./arquivos/parametros/merge.txt', '\n' + path_video)
 }
 
-function editarVideo(){
-    console.log('Editando o video')
-    exec('ffmpeg -f concat -safe 0 -i ././arquivos/parametros/merge.txt ./arquivos/editados/aula02_editada.mp4', (error, stdout, stderr) => {
-        if (error) {
-            console.log(`error: ${error.message}`);
-            return
-        }
-        if (stderr) {
-            console.log(`stderr: ${stderr}`);
-        }
-        console.log("Video editado com sucesos as " + new Date());
-    });
+function editarVideo(nome_final_arquivo) {
+    return new Promise((resolve, reject) => {
+        console.log(`Editando o video ${nome_final_arquivo}`);
+        exec(`ffmpeg -f concat -safe 0 -i ././arquivos/parametros/merge.txt ${nome_final_arquivo}`, (error, stdout, stderr) => {
+            if (error) {
+                console.log(`error: ${error.message}`);
+                return
+            }
+            if (stderr) {
+                console.log(`stderr: ${stderr}`);
+            }
+            let dados_edicao = `Video ${nome_final_arquivo} editado com sucesso as ${new Date()}`
+            fs.appendFileSync('./arquivos/parametros/log.txt', '\n' + dados_edicao);
+            resolve("ok");
+        });
+    })
+   
 }
 
 
