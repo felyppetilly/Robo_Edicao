@@ -1,0 +1,1 @@
+// ffmpeg -i ./arquivos/sem_edicao/Aula01.mp4 -i ./arquivos/sem_edicao/Aula01.png -map 1 -map 0 -c copy -disposition:0 attached_pic ././arquivos/editados/out.mp4

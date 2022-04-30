@@ -1,0 +1,10 @@
+{
+    "merge": [
+        {
+            "aula": "Aula01.mp4",
+            "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4",
+            "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+            "nome_final_arquivo": "././arquivos/editados/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4"
+        }
+    ]
+}

@@ -6,12 +6,13 @@ export default async function mergeVideos() {
     for (let j of json.merge) {
         await criarArquivoParametro(j);
         let nome_final_arquivo = j.nome_final_arquivo;
+        console.log(nome_final_arquivo);
         await editarVideo(nome_final_arquivo);
     }
 }
 
 function lerJSON() {
-    let json = fs.readFileSync('././arquivos/parametros/json.txt', 'utf-8');
+    let json = fs.readFileSync('././arquivos/parametros/json_merge.txt', 'utf-8');
     return JSON.parse(json);
 }
 
@@ -42,5 +43,9 @@ function editarVideo(nome_final_arquivo) {
    
 }
 
+
+function alterarNomeArquivos() {
+
+}
 
 
