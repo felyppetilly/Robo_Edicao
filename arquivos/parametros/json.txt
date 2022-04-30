@@ -1,0 +1,14 @@
+{
+    "merge": [
+        {
+            "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/aula01.mp4'",
+            "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+            "nome_final_arquivo": "./arquivos/editados/aula01_editada.mp4"
+        }
+    ],
+    "cortes": [
+        {
+
+        }
+    ]
+}

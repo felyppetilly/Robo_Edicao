@@ -1,9 +1,3 @@
-import lerParametros from './metodos/lerParametros';
-import juntarVideo from './metodos/juntarVideo';
+import mergeVideos from './metodos/mergeVideos';
 
-juntarVideo();
-
-
-
-// lerParametros('juntar');
-// lerParametros('cortar');
+mergeVideos();
