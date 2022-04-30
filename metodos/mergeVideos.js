@@ -3,7 +3,10 @@ import { exec } from 'child_process';
 
 export default async function mergeVideos(){
     let json = lerJSON();
-    await criarArquivoParametro(json);
+    console.log(json)
+    for(let j of json.merge){
+        await criarArquivoParametro(j);
+    }
     editarVideo();
 }
 
@@ -13,9 +16,10 @@ function lerJSON(){
 }
 
 function criarArquivoParametro(json){
-    let path_video = json.merge[0].path_video;
-    let path_vinheta = json.merge[0].path_vinheta;
-    let nome_final_arquivo = json.merge[0].nome_final_arquivo;
+    console.log(json);
+    let path_video = json.path_video;
+    let path_vinheta = json.path_vinheta;
+    let nome_final_arquivo = json.nome_final_arquivo;
 
     fs.writeFileSync('./arquivos/parametros/merge.txt', path_vinheta);
     fs.appendFileSync('./arquivos/parametros/merge.txt', '\n' + path_video)
