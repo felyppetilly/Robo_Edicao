@@ -1,2 +1,2 @@
 file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'
-file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4
+file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula14.mp4

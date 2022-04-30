@@ -1,10 +1,102 @@
 {
-    "merge": [
-        {
-            "aula": "Aula01.mp4",
-            "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4",
-            "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
-            "nome_final_arquivo": "././arquivos/editados/Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4"
-        }
-    ]
+    "merge":[
+    {
+        "nome_original_video": "Aula 01 - Objetos JSON.mp4",
+        "aula": "Aula01.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula01.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula01.mp4"
+    },
+    {
+        "nome_original_video": "Aula 02 - Interpolação.mp4",
+        "aula": "Aula02.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula02.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula02.mp4"
+    },
+    {
+        "nome_original_video": "Aula 03 - Const e Let.mp4",
+        "aula": "Aula03.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula03.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula03.mp4"
+    },
+    {
+        "nome_original_video": "Aula 04 - Desestruturação.mp4",
+        "aula": "Aula04.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula04.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula04.mp4"
+    },
+    {
+        "nome_original_video": "Aula 05 - Arrow Function.mp4",
+        "aula": "Aula05.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula05.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula05.mp4"
+    },
+    {
+        "nome_original_video": "Aula 06 - Manipulação do DOM I - Eventos.mp4",
+        "aula": "Aula06.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula06.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula06.mp4"
+    },
+    {
+        "nome_original_video": "Aula 07 - Manipulação do DOM II - Funções Nativas.mp4",
+        "aula": "Aula07.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula07.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula07.mp4"
+    },
+    {
+        "nome_original_video": "Aula 08 - Manipulação do DOM III - Funções Nativas.mp4",
+        "aula": "Aula08.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula08.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula08.mp4"
+    },
+    {
+        "nome_original_video": "Aula 09 - Filter.mp4",
+        "aula": "Aula09.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula09.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula09.mp4"
+    },
+    {
+        "nome_original_video": "Aula 10 - Map.mp4",
+        "aula": "Aula10.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula10.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula10.mp4"
+    },
+    {
+        "nome_original_video": "Aula 11 - Reduce.mp4",
+        "aula": "Aula11.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula11.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula11.mp4"
+    },
+    {
+        "nome_original_video": "Aula 12 - Fetch I - API.mp4",
+        "aula": "Aula12.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula12.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula12.mp4"
+    },
+    {
+        "nome_original_video": "Aula 13 - Fetch II.mp4",
+        "aula": "Aula13.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula13.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula13.mp4"
+    },
+    {
+        "nome_original_video": "Aula 14 - Fetch III.mp4",
+        "aula": "Aula14.mp4",
+        "path_video": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/sem_edicao/Aula14.mp4",
+        "path_vinheta": "file 'file:C:/Users/Felyppe/Desktop/Robo_Edicao/arquivos/vinhetas/vinheta_inicio.mp4'",
+        "nome_final_arquivo": "././arquivos/editados/Aula14.mp4"
+    }
+]
 }

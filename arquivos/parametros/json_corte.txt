@@ -1,157 +1,116 @@
 {
     "corte": [
     {
-        "nome_original_video": "Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4",
-        "nome_aula_semformato": "Aula01",
-        "nome_edicao_video": "Aula01.mp4",
+        "nome_original_video": "Aula 01 - Objetos JSON.mp4",
+        "nome_edicao_video": "Aula01",
         "path_video": "././arquivos/sem_edicao/Aula01.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 01 - PT01 - Algoritmos.mp4"
+        "nome_final_arquivo": "Aula 01 - Objetos JSON.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 01 - PT02 - Sintaxe e Semantica.mp4",
-        "nome_aula_semformato": "Aula02",
-        "nome_edicao_video": "Aula02.mp4",
+        "nome_original_video": "Aula 02 - Interpolação.mp4",
+        "nome_edicao_video": "Aula02",
         "path_video": "././arquivos/sem_edicao/Aula02.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 01 - PT02 - Sintaxe e Semantica.mp4"
+        "nome_final_arquivo": "Aula 02 - Interpolação.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 02 - Tipos de Dados - Variáveis vs Constantes.mp4",
-        "nome_aula_semformato": "Aula03",
-        "nome_edicao_video": "Aula03.mp4",
+        "nome_original_video": "Aula 03 - Const e Let.mp4",
+        "nome_edicao_video": "Aula03",
         "path_video": "././arquivos/sem_edicao/Aula03.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 02 - Tipos de Dados - Variáveis vs Constantes.mp4"
+        "nome_final_arquivo": "Aula 03 - Const e Let.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 03 - Operadores.mp4",
-        "nome_aula_semformato": "Aula04",
-        "nome_edicao_video": "Aula04.mp4",
+        "nome_original_video": "Aula 04 - Desestruturação.mp4",
+        "nome_edicao_video": "Aula04",
         "path_video": "././arquivos/sem_edicao/Aula04.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 03 - Operadores.mp4"
+        "nome_final_arquivo": "Aula 04 - Desestruturação.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 04 - Tabela Verdade.mp4",
-        "nome_aula_semformato": "Aula05",
-        "nome_edicao_video": "Aula05.mp4",
+        "nome_original_video": "Aula 05 - Arrow Function.mp4",
+        "nome_edicao_video": "Aula05",
         "path_video": "././arquivos/sem_edicao/Aula05.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 04 - Tabela Verdade.mp4"
+        "nome_final_arquivo": "Aula 05 - Arrow Function.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 05 - Fluxograma - Entrada - Processamento e Saída de Dados.mp4",
-        "nome_aula_semformato": "Aula06",
-        "nome_edicao_video": "Aula06.mp4",
+        "nome_original_video": "Aula 06 - Manipulação do DOM I - Eventos.mp4",
+        "nome_edicao_video": "Aula06",
         "path_video": "././arquivos/sem_edicao/Aula06.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 05 - Fluxograma - Entrada - Processamento e Saída de Dados.mp4"
+        "nome_final_arquivo": "Aula 06 - Manipulação do DOM I - Eventos.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 06 - Fluxograma - Estrutura Sequencial.mp4",
-        "nome_aula_semformato": "Aula07",
-        "nome_edicao_video": "Aula07.mp4",
+        "nome_original_video": "Aula 07 - Manipulação do DOM II - Funções Nativas.mp4",
+        "nome_edicao_video": "Aula07",
         "path_video": "././arquivos/sem_edicao/Aula07.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 06 - Fluxograma - Estrutura Sequencial.mp4"
+        "nome_final_arquivo": "Aula 07 - Manipulação do DOM II - Funções Nativas.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 07 - Fluxograma - Estrutura Condicional.mp4",
-        "nome_aula_semformato": "Aula08",
-        "nome_edicao_video": "Aula08.mp4",
+        "nome_original_video": "Aula 08 - Manipulação do DOM III - Funções Nativas.mp4",
+        "nome_edicao_video": "Aula08",
         "path_video": "././arquivos/sem_edicao/Aula08.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 07 - Fluxograma - Estrutura Condicional.mp4"
+        "nome_final_arquivo": "Aula 08 - Manipulação do DOM III - Funções Nativas.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 08 - Fluxograma - Estrutura de Repetição.mp4",
-        "nome_aula_semformato": "Aula09",
-        "nome_edicao_video": "Aula09.mp4",
+        "nome_original_video": "Aula 09 - Filter.mp4",
+        "nome_edicao_video": "Aula09",
         "path_video": "././arquivos/sem_edicao/Aula09.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 08 - Fluxograma - Estrutura de Repetição.mp4"
+        "nome_final_arquivo": "Aula 09 - Filter.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 09 - PT01 - Introdução ao Javascript.mp4",
-        "nome_aula_semformato": "Aula10",
-        "nome_edicao_video": "Aula10.mp4",
+        "nome_original_video": "Aula 10 - Map.mp4",
+        "nome_edicao_video": "Aula10",
         "path_video": "././arquivos/sem_edicao/Aula10.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 09 - PT01 - Introdução ao Javascript.mp4"
+        "nome_final_arquivo": "Aula 10 - Map.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 09 - PT02 - Introdução ao Javascript.mp4",
-        "nome_aula_semformato": "Aula11",
-        "nome_edicao_video": "Aula11.mp4",
+        "nome_original_video": "Aula 11 - Reduce.mp4",
+        "nome_edicao_video": "Aula11",
         "path_video": "././arquivos/sem_edicao/Aula11.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 09 - PT02 - Introdução ao Javascript.mp4"
+        "nome_final_arquivo": "Aula 11 - Reduce.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 10 - Variáveis e Operadores.mp4",
-        "nome_aula_semformato": "Aula12",
-        "nome_edicao_video": "Aula12.mp4",
+        "nome_original_video": "Aula 12 - Fetch I - API.mp4",
+        "nome_edicao_video": "Aula12",
         "path_video": "././arquivos/sem_edicao/Aula12.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 10 - Variáveis e Operadores.mp4"
+        "nome_final_arquivo": "Aula 12 - Fetch I - API.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 11 - Estrutura Sequencial.mp4",
-        "nome_aula_semformato": "Aula13",
-        "nome_edicao_video": "Aula13.mp4",
+        "nome_original_video": "Aula 13 - Fetch II.mp4",
+        "nome_edicao_video": "Aula13",
         "path_video": "././arquivos/sem_edicao/Aula13.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 11 - Estrutura Sequencial.mp4"
+        "nome_final_arquivo": "Aula 13 - Fetch II.mp4"
     },
     {
-        "nome_original_video": "Algoritmo_JS - Aula 12 - Estrutura Condicional.mp4",
-        "nome_aula_semformato": "Aula14",
-        "nome_edicao_video": "Aula14.mp4",
+        "nome_original_video": "Aula 14 - Fetch III.mp4",
+        "nome_edicao_video": "Aula14",
         "path_video": "././arquivos/sem_edicao/Aula14.mp4",
         "inicio_corte": "00:00:05",
         "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 12 - Estrutura Condicional.mp4"
-    },
-    {
-        "nome_original_video": "Algoritmo_JS - Aula 13 - Estrutura de Repetição.mp4",
-        "nome_aula_semformato": "Aula15",
-        "nome_edicao_video": "Aula15.mp4",
-        "path_video": "././arquivos/sem_edicao/Aula15.mp4",
-        "inicio_corte": "00:00:05",
-        "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 13 - Estrutura de Repetição.mp4"
-    },
-    {
-        "nome_original_video": "Algoritmo_JS - Aula 14 - Vetor.mp4",
-        "nome_aula_semformato": "Aula16",
-        "nome_edicao_video": "Aula16.mp4",
-        "path_video": "././arquivos/sem_edicao/Aula16.mp4",
-        "inicio_corte": "00:00:05",
-        "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 14 - Vetor.mp4"
-    },
-    {
-        "nome_original_video": "Algoritmo_JS - Aula 15 - Funções.mp4",
-        "nome_aula_semformato": "Aula17",
-        "nome_edicao_video": "Aula17.mp4",
-        "path_video": "././arquivos/sem_edicao/Aula17.mp4",
-        "inicio_corte": "00:00:05",
-        "duracao_corte": "",
-        "nome_final_arquivo": "Algoritmo_JS - Aula 15 - Funções.mp4"
+        "nome_final_arquivo": "Aula 14 - Fetch III.mp4"
     }
 ]
 }
